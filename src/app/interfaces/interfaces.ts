@@ -41,7 +41,7 @@ export interface PeliculaDetalle {
   original_language?: string;
   original_title?: string;
   genre_ids?: number[];
-  genres: Genre[];
+  // genres: Genre[];
   title?: string;
   vote_average?: number;
   overview?: string;

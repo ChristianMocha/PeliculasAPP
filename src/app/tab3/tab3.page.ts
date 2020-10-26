@@ -37,7 +37,7 @@ export class Tab3Page {
       this.favoritoGenero.push({
         genero: genero.name,
         pelis: peliculas.filter( peli => {
-          return peli.genres.find( genre => genre.id === genero.id );
+          // return peli.genres.find( genre => genre.id === genero.id );
         })
       });
 
